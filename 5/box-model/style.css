@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    
+    margin: 20px     ;
+    padding: 20px;
+    border: 4px solid;
+    background-color: rgb(100, 102, 102);
+    border-color: rgb(3, 29, 102) red yellow green;
+    width: 250px;
+}

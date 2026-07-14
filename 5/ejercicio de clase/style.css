@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.card{
+    max-width: 350px;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 2rem auto;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn:hover{
+    background-color: lightblue;
+    transform: scale(1.05);
+}
