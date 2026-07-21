@@ -1,0 +1,22 @@
+.flex-item{
+    background-color: green;
+    color: white;
+    border: solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 32px;
+    text-align: center;
+       
+}
+
+
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 20px;
+}
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+}
