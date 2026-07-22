@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+:root {
+    /* Primary */
+    --green-500: hsl(158, 36%, 37%);
+    --green-700: hsl(158, 42%, 18%);
+
+    /* Neutral */
+    --black: hsl(212, 21%, 14%);
+    --grey: hsl(228, 12%, 48%);
+    --cream: hsl(30, 38%, 92%);
+    --white: hsl(0, 0%, 100%);
+
+    --title-font:"Fraunces";
+    --title-text:"Montserrat";
+}
+
+
+
+.mobile-perfume{
+    display: none;
+}
+
+body{
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+article{
+    background-color: bisque;
+    width: 600px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cont-imagenes, 
+.cont-textos{
+    width: 50%;
+}
+
+.cont-imagenes img{
+    width: 100%;
+    height: 100%;
+}
+
+.cont-textos{
+    padding: 30px;
+    background-color: var(--white);
+}
+
+.cont-textos h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-family: var(--title-text);
+    margin-bottom: 10px;
+    color: var(--grey);
+}
+
+.cont-textos h2{
+    font-family: var(--title-font);
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 20px;
+
+}
+
+.cont-textos .descripcion {
+    color: var(--grey);
+    font-family: var(--title-font);
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.cont-precios{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.precio-oferta{
+    font-size: 35px;
+    font-family: var(--title-font);
+    color: var(--green-500);
+    font-weight: bold;
+}
+
+.precio-real{
+    color: var(--grey);
+    font-size: 12px;
+    font-family: var(--title-font);
+}
+
+button{
+    width: 100%;
+    background-color: var(--green-500);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: var(--white);
+    font: var(--title-text);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--green-700);
+}
+

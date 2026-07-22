@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+@media (max-width:800px) {
+    h1{
+        color: rgb(93, 93, 128);
+    }
+    
+    p{
+        color: yellowgreen;
+    }
+
+    body{
+        background-color: rgb(19, 33, 29);
+    }
+}
+
+/* punto de quiebre / break point/ media query(multimedia consulta) */
+
+/* desde 0px a 500px quiero que el fondo sea negro y la letra blanca */
+
+/* condicion */
+@media (max-width:500px) {
+    body{
+        background-color: black;
+        color: white;
+        display: block;
+    }
+
+    h1,
+    p{
+        color: white;
+    }
+}
+
+
+
+/* selector{
+    propiedad: valor
+} */
