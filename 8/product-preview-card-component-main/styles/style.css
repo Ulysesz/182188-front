@@ -13,7 +13,7 @@
 :root {
     /* Primary */
     --green-500: hsl(158, 36%, 37%);
-    --green-700: hsl(158, 42%, 18%);
+    --green-700: hsl(158, 85%, 10%);
 
     /* Neutral */
     --black: hsl(212, 21%, 14%);
@@ -128,3 +128,10 @@ button:hover{
     background-color: var(--green-700);
 }
 
+@media (max-width: 800px) {
+    article{
+         display: block;
+         width: 100%;
+         overflow: auto;
+    }
+}
